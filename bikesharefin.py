@@ -207,6 +207,7 @@ def main():
 
         restart = input('\nWould you like to restart? Enter yes or no.\n').lower()
         if restart != 'yes':
+            print('\nThank you for using bikeshare.py')
             break
 
 
