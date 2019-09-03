@@ -5,7 +5,8 @@
 Bikeshare Project
 
 ### Description
-Provides an interactive look at bikeshare data from three major cities.
+Provides an interactive look at bikeshare data from three major cities,
+using pandas for python.
 
 ### Files used
 bikeshare.py
