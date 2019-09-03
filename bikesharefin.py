@@ -4,7 +4,10 @@ import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+              'washington': 'washington.csv',
+              'c':'chicago.csv',
+              'ny': 'new_york-city.csv',
+              'w': 'washington.csv' }
 months = ['january', 'february', 'march', 'april', 'may', 'june']
 days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
 
@@ -20,7 +23,7 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
 
     while True:
-        city = input("Please select a city (chicago, new york city, or washington): ").lower()
+        city = input("Please select a city (chicago or c, new york city or ny , or washington or w): ").lower()
         if city not in (CITY_DATA):
             print("I did not understand your choice, please try again.")
         else:
