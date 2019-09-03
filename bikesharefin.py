@@ -180,6 +180,12 @@ def user_stats(df):
     print('-'*40)
 
 def raw_data(df):
+    """Allows user to view raw data"""
+
+    print('\nCalculating User Stats...\n')
+    start_time = time.time()
+
+    #Display raw data at user request
     while True:
         n = 0
         view_data = input('\nWould you like to view the raw data?\n').lower()
@@ -189,6 +195,9 @@ def raw_data(df):
             view_data = input('\nWould you like to see more data?\n').lower()
         if view_data != 'yes':
             break
+
+    print("\nThis took %s seconds." % (time.time() - start_time))
+    print('-'*40)
 
 def main():
     pd.set_option('display.max_columns', None)
