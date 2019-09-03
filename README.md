@@ -10,6 +10,8 @@ Provides an interactive look at bikeshare data from three major cities.
 ### Files used
 bikeshare.py
 readme.md
+chicago.csv; washington.csv; new_york_city.csv; (ignored)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Seemingly nearly every answer ever posted on stack exchange.  Obvious, but
+help.github as well
